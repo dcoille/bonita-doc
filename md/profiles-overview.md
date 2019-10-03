@@ -1,6 +1,7 @@
 # Profiles overview
 
 A profile is an indirection to some entities of the organization: users, groups, roles, and/or memberships.
+
 Profiles work as permissions to give access to:
 - [Living Applications](applications.md)
 - Defined objects and attributes of the BDM (through [BDM Access Control](access-control-api.md))
