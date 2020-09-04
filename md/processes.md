@@ -18,8 +18,6 @@ The .bar file is ready to be resolved and enabled
 
 You can only install a .bar file that was exported from a Bonita Studio of the same minor (7.x) version as your Bonita Portal and Bonita Engine. If you have a .bar file that was exported from an earlier version of Bonita Studio (7.x-1), it will not work with Bonita Engine. Export the process definition as a .bos file from your old Bonita Studio, import in into the new Studio, then export it as a .bar. This is necessary for a .bar that has not been deployed. A process that was developed in an older version of Bonita Studio and is already deployed is migrated automatically when you migrate your platform. However, for future maintenance of the process definition, you are recommended to update all your process bar files to the latest version each time you update your platform.
 
-[Watch the Install a process video](images/videos-6_0/install_an_app_in_bonita_portal.mp4)
-
 ## Resolve a process
 
 Resolving a process means completing the configuration in the Portal and making sure that all dependencies are met. A process has to be resolved before it can be enabled. 
